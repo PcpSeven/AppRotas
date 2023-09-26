@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <h1>Controle de Rotas Seven</h1>
+        </div>
+    </nav>
+    <div class="formulario">
+        <form class="formClass">
+            <label>
+                Carro:
+                <input class="carroInput" type="text" placeholder="Escolha o carro" list="Carro">
+                <datalist id="Carro">
+                    <option value="Fiorino Branca - JNK-6013">Fiorino Branca - JNK-6013</option>
+                    <option value="Uno Azul - AOL7A76">Uno Azul - AOL7A76</option>
+                    <option value="HR Prata - OGI-2885">HR Prata - OGI-2885</option>
+                    <option value="Strada Branca - JGR-1245">Strada Branca - JGR-1245</option>
+                    <option value="Uno Prata - JJK-2356">Uno Prata - JJK-2356</option>
+                </datalist>
+            </label>
+            <label>
+                Motorista:
+                <input class="motorista" type="text">
+            </label>
+            <label>
+                Data/Horario:
+                <input disabled class="inputData" type="datetime">
+            </label>
+            <label>
+                Saida ou Chegada:
+                <label>Saida:</label>
+                <input name="chegadasaida" value="saida" type="radio">
+                <label>Chegada:</label>
+                <input name="chegadasaida" value="chegada" type="radio">
+            </label>
+            <button type="submit" class="btnEnviar">Enviar</button>
+        </form>
+    </div>
+<script>
+
+
+</script>
+</body>
+<script src="main.js"></script>
+</html>
